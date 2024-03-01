@@ -1,0 +1,30 @@
+.benitslisttile
+{
+    height: auto;
+    width: 270px;
+
+
+    img
+    {
+        height: 50px;
+        width: 50px;
+    }
+
+    h1
+    {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: rgba(16, 56, 91, 1);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    p
+    {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: rgba(102, 102, 102, 1);
+    }
+}

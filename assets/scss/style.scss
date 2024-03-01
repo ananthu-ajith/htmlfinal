@@ -1,0 +1,24 @@
+//base
+@import '../scss/base/font.scss';
+
+
+//atom
+@import '../scss/atom/testimonialtile.scss';
+@import '../scss/atom/benifitslisttile.scss';
+@import '../scss/atom/button.scss';
+@import '../scss/atom/locationtile.scss';
+
+
+//molecule
+
+@import '../scss/molecule/vision.scss';
+@import '../scss/molecule/tandab.scss';
+
+//organism
+@import '../scss/organism/navbar.scss';
+@import '../scss/organism/greatplace.scss';
+@import '../scss/organism/testimonial.scss';
+@import '../scss/organism/benefits.scss';
+@import '../scss/organism/demo.scss';
+@import '../scss/organism/footer.scss';
+@import '../scss/organism/intakes.scss';

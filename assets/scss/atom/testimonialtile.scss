@@ -1,0 +1,63 @@
+
+.tsmnltle1
+{
+ height: 245px;
+ width: 30%;
+ background-color: rgba(249, 249, 249, 1);   
+ position: relative;
+ padding: 1px;
+ padding-left: 30px;
+ padding-right: 60px;
+
+ .img1
+ {
+    height: 84px;
+    width: 84px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    transform: translatey(-50%);
+ }
+ .img2
+ {
+    height: 37px;
+    width: 50px;
+    position: absolute;
+    top:10px;
+    right:10px;
+ }
+
+ h1
+ {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(16, 56, 91, 1);
+    margin-top: 50px;
+    margin-bottom: 10px;
+ }
+
+ p
+ {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(102, 102, 102, 1);
+    padding-bottom: 15px;
+ }
+
+ h3
+ {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 96, 228, 1);
+ }
+
+ h3::after
+ {
+    content: url(../../../assets/images/downarrow.svg);
+    width: 4px;
+    height: 8px;
+    margin-left: 10px;
+ }
+}

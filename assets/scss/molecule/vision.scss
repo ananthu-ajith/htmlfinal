@@ -1,0 +1,38 @@
+.vsn
+{
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+    background-image: url(../../../assets/images/Vision.png);
+    background-size: cover;
+    background-position: center;
+
+    div
+    {
+        width: 50%;
+        height: 100%;
+        padding: 1px;
+        padding-left: 50px;
+
+        h1
+        {
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 52px;
+            color: white;
+            margin-top: 60px;
+        }
+    
+        p
+        {
+            color: white;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            margin-top: 25px;
+
+        }
+    }
+
+   
+}

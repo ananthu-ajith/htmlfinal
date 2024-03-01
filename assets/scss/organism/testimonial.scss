@@ -1,0 +1,54 @@
+.tstmnl {
+  height: auto;
+  width: 100%;
+  padding: 1px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  &__hd {
+    height: auto;
+    width: auto;
+    padding: 1px;
+    text-align: center;
+
+    h1 {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 42px;
+      color: rgba(16, 56, 91, 1);
+      margin: 20px;
+      margin-top: 40px;
+    }
+
+    p {
+      font-weight: 400;
+      line-height: 18.2px;
+      font-size: 14px;
+      color: rgba(102, 102, 102, 1);
+    }
+  }
+
+  &__btn
+  {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+    img
+    {
+        height: 24px;
+        width: 58px;
+    }
+  }
+
+  &__desc
+  {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+
+}

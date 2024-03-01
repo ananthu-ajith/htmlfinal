@@ -1,0 +1,30 @@
+
+.button
+{
+    background-color:rgba(7, 29, 49, 1);
+    color: rgb(255, 255, 255);
+    height: 42px;
+    width: 132px;
+    position: relative;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    border: 0;
+}
+
+.button::after 
+{
+    content: '\27A1'; 
+    font-size: x-small;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    height: 12px;
+    width: 12px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
