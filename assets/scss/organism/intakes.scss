@@ -245,3 +245,42 @@
     }
   }
 }
+
+
+@media (min-width: 400px) and (max-width: 1000px) {
+
+
+  .intakes
+  {
+    padding: 0;
+
+    .intakes__head
+    {
+      flex-wrap: wrap;
+      height: auto;
+    }
+
+    .intakes__desc
+    {
+      position: relative;
+      
+      .intakes__desc__lft
+      {
+        position: absolute;
+        width: 100%;
+        opacity: 0.2;
+
+        img
+        {
+          width: 100%;
+        }
+      }
+      .intakes__desc__rgt
+      {
+        width: 100%;
+      }
+
+    }
+  }
+
+}

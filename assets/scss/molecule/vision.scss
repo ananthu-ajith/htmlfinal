@@ -36,3 +36,15 @@
 
    
 }
+
+@media (min-width: 400px) and (max-width: 1000px) {
+
+    .vsn
+    {
+        div
+        {
+            width: 100%;
+            overflow-y: scroll;
+        }
+    }
+}

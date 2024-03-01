@@ -61,3 +61,26 @@
     margin-left: 10px;
  }
 }
+
+@media (min-width: 400px) and (max-width: 1000px) {
+
+
+  
+   .tsmnltle1
+{
+   padding-top: 50px;
+   .img1
+   {
+      top: 0;
+      left: 0;
+      transform: translatey(0); 
+      position: none;
+     }
+
+     h1
+     {
+      margin-top: 90px;
+     }
+
+   }
+}

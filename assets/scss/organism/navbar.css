@@ -104,4 +104,32 @@
             line-height: 21px;
             color: #10385B; }
 
+@media (min-width: 400px) and (max-width: 1000px) {
+  .nav {
+    height: auto;
+    padding: 0; }
+    .nav .topnav {
+      display: inline-block;
+      height: auto;
+      border: 0;
+      padding: 0px; }
+      .nav .topnav__lft {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+      .nav .topnav__rgt {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+        .nav .topnav__rgt ul li::before {
+          content: initial; }
+    .nav .btmnav {
+      height: auto;
+      padding: 0;
+      display: inline-block; }
+      .nav .btmnav img {
+        margin: 8px; }
+      .nav .btmnav ul {
+        overflow-x: scroll; } }
+
 /*# sourceMappingURL=navbar.css.map */

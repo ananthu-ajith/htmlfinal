@@ -430,3 +430,37 @@
 
     }
 }
+
+
+@media (min-width: 400px) and (max-width: 1000px) {
+
+
+  .bnfts
+  {
+    overflow-x: scroll;
+  }
+  .benifitsmain__list
+  {
+    padding: 0;
+    overflow-y: scroll;
+    background-color: white;
+
+    .benifitsmain__list__sub
+    {
+      flex-wrap: wrap;
+
+    }
+  }
+
+  .value__sub__rgt
+  {
+   opacity: 0.2;
+   right: 0;
+  }
+
+  .value__sub__list
+  {
+    width: 100%;
+  }
+
+}

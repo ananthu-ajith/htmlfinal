@@ -4,6 +4,7 @@
   padding: 1px;
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 40px;
 
   &__hd {
     height: auto;
@@ -51,4 +52,18 @@
     padding-top: 40px;
   }
 
+}
+
+
+@media (min-width: 400px) and (max-width: 1000px) {
+
+  .tstmnl {
+
+    padding: 0;
+  .tsmnltle1
+  {
+    overflow-y: scroll;
+    padding: 0;
+  }
+}
 }

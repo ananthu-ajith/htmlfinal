@@ -166,3 +166,61 @@
 
   }
 }
+
+
+@media (min-width: 400px) and (max-width: 1000px) {
+
+  .nav
+  {
+    height: auto;
+    padding: 0;
+    .topnav {
+      display: inline-block;
+      height: auto;
+      border: 0;
+      padding: 0px;
+
+      &__lft
+      {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+      }
+
+      &__rgt 
+      {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        ul
+        {
+          
+     li::before {
+                content: initial;
+                
+              }
+        }
+      }
+      
+    
+   }
+   .btmnav
+   {
+    height: auto;
+    padding: 0;
+    display: inline-block;
+
+    img
+    {
+      margin: 8px;
+    }
+    ul
+    {
+      overflow-x: scroll;
+    }
+   }
+  }
+  
+}

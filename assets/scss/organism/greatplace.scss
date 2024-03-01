@@ -224,3 +224,24 @@
     }
   }
 }
+
+
+@media (min-width: 400px) and (max-width: 1000px) {
+
+  .grtplc
+  {
+    .fadeimg
+    {
+      overflow-y: scroll;
+    }
+    .grtplcbt
+    {
+      display: none;
+    }
+    .grtplimg
+    {
+      z-index: -1;
+    }
+  }
+
+}
