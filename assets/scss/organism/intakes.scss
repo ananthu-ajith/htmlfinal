@@ -253,6 +253,7 @@
   .intakes
   {
     padding: 0;
+    height: auto;
 
     .intakes__head
     {
@@ -263,6 +264,7 @@
     .intakes__desc
     {
       position: relative;
+      height: auto;
       
       .intakes__desc__lft
       {
@@ -278,6 +280,16 @@
       .intakes__desc__rgt
       {
         width: 100%;
+
+        .intakes__desc__rgt__tl1
+        {
+          height: auto;
+          .tl1join
+          {
+            height: auto;
+            overflow-x: scroll;
+          }
+        }
       }
 
     }

@@ -313,6 +313,48 @@
 
 @media (min-width: 400px) and (max-width: 1000px) {
 
+.demomain
+{
+    display: block;
+    .demo
+    {
+        width: 100%;
+
+        .demo__t
+        {
+            flex-wrap: wrap;
+            .demo__t__l
+            {
+                width: 100%;
+
+                >div
+                {
+                    width: 100%;
+                }
+            }
+
+            .demo__r
+            {
+                width: 100%;
+
+                >div
+                {
+                    margin-left: 0;
+                    margin-right: 0;
+                    width: 100%;
+                }
+
+            }
+        }
+
+        .demo__b
+        {
+            width: 100%;
+            
+        }
+
+    }
+}
     .demomain__right{
         display: none;
     }

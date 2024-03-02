@@ -1198,6 +1198,25 @@
       color: black; }
 
 @media (min-width: 400px) and (max-width: 1000px) {
+  .demomain {
+    display: block; }
+    .demomain .demo {
+      width: 100%; }
+      .demomain .demo .demo__t {
+        flex-wrap: wrap; }
+        .demomain .demo .demo__t .demo__t__l {
+          width: 100%; }
+          .demomain .demo .demo__t .demo__t__l > div {
+            width: 100%; }
+        .demomain .demo .demo__t .demo__r {
+          width: 100%; }
+          .demomain .demo .demo__t .demo__r > div {
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%; }
+      .demomain .demo .demo__b {
+        width: 100%; }
+
   .demomain__right {
     display: none; } }
 .location {
@@ -1438,14 +1457,16 @@
       line-height: 21px; }
 
 @media (min-width: 400px) and (max-width: 1000px) {
-  .location .lctntlmain {
-    flex-wrap: wrap;
-    overflow-y: scroll;
-    padding: 0; }
-  .location .location__news {
-    height: auto; }
-    .location .location__news .location__news__sub__lft {
+  .location {
+    flex-wrap: wrap; }
+    .location .lctntlmain {
+      flex-wrap: wrap;
+      overflow-y: scroll;
+      padding: 0; }
+    .location .location__news {
       height: auto; }
+      .location .location__news .location__news__sub__lft {
+        height: auto; }
 
   .ftrline1 {
     display: none; }
@@ -1633,12 +1654,14 @@
 
 @media (min-width: 400px) and (max-width: 1000px) {
   .intakes {
-    padding: 0; }
+    padding: 0;
+    height: auto; }
     .intakes .intakes__head {
       flex-wrap: wrap;
       height: auto; }
     .intakes .intakes__desc {
-      position: relative; }
+      position: relative;
+      height: auto; }
       .intakes .intakes__desc .intakes__desc__lft {
         position: absolute;
         width: 100%;
@@ -1646,6 +1669,11 @@
         .intakes .intakes__desc .intakes__desc__lft img {
           width: 100%; }
       .intakes .intakes__desc .intakes__desc__rgt {
-        width: 100%; } }
+        width: 100%; }
+        .intakes .intakes__desc .intakes__desc__rgt .intakes__desc__rgt__tl1 {
+          height: auto; }
+          .intakes .intakes__desc .intakes__desc__rgt .intakes__desc__rgt__tl1 .tl1join {
+            height: auto;
+            overflow-x: scroll; } }
 
 /*# sourceMappingURL=style.css.map */
