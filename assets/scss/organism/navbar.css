@@ -1,7 +1,7 @@
-.nav {
+.nav1 {
   height: 90px;
   width: 100%; }
-  .nav .topnav {
+  .nav1 .topnav1 {
     height: 35px;
     width: 100%;
     background-color: white;
@@ -10,55 +10,55 @@
     border-bottom: 2px solid #F5F5F5;
     padding-left: 50px;
     padding-right: 50px; }
-    .nav .topnav__lft {
+    .nav1 .topnav1__lft {
       width: auto;
       height: 100%; }
-      .nav .topnav__lft ul {
+      .nav1 .topnav1__lft ul {
         display: flex;
         list-style-type: none;
         align-items: center; }
-        .nav .topnav__lft ul li {
+        .nav1 .topnav1__lft ul li {
           margin: 8px;
           height: auto;
           width: auto; }
-          .nav .topnav__lft ul li div {
+          .nav1 .topnav1__lft ul li div {
             height: auto;
             width: auto;
             display: flex;
             align-items: center; }
-            .nav .topnav__lft ul li div img {
+            .nav1 .topnav1__lft ul li div img {
               height: auto;
               width: auto; }
-          .nav .topnav__lft ul li a {
+          .nav1 .topnav1__lft ul li a {
             color: #666666;
             text-decoration: none;
             font-weight: 300;
             font-size: 16px; }
-    .nav .topnav__rgt {
+    .nav1 .topnav1__rgt {
       height: 100%;
       width: auto;
       display: flex;
       align-items: center; }
-      .nav .topnav__rgt ul {
+      .nav1 .topnav1__rgt ul {
         display: flex;
         list-style-type: none; }
-        .nav .topnav__rgt ul li {
+        .nav1 .topnav1__rgt ul li {
           margin: auto 8px;
           height: auto;
           width: auto; }
-          .nav .topnav__rgt ul li a {
+          .nav1 .topnav1__rgt ul li a {
             text-decoration: none;
             font-weight: 400;
             font-size: 14px;
             line-height: 21px;
             color: #666666; }
-        .nav .topnav__rgt ul li::before {
+        .nav1 .topnav1__rgt ul li::before {
           content: "\2022";
           color: #04BBF2;
           width: 5px;
           height: 5px;
           margin-right: 10px; }
-      .nav .topnav__rgt button {
+      .nav1 .topnav1__rgt button {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -71,7 +71,7 @@
         line-height: 18px;
         color: #FFFFFF;
         margin-left: 20px; }
-  .nav .btmnav {
+  .nav1 .btmnav1 {
     height: 55px;
     width: 100%;
     display: flex;
@@ -79,25 +79,25 @@
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px; }
-    .nav .btmnav__lft {
+    .nav1 .btmnav1__lft {
       height: 100%;
       width: auto;
       display: flex;
       align-items: center; }
-      .nav .btmnav__lft img {
+      .nav1 .btmnav1__lft img {
         height: 28px;
         width: 150px; }
-    .nav .btmnav__rgt {
+    .nav1 .btmnav1__rgt {
       display: flex;
       height: 100%;
       width: auto; }
-      .nav .btmnav__rgt ul {
+      .nav1 .btmnav1__rgt ul {
         display: flex;
         align-items: center;
         list-style-type: none; }
-        .nav .btmnav__rgt ul li {
+        .nav1 .btmnav1__rgt ul li {
           margin: auto 8px; }
-          .nav .btmnav__rgt ul li a {
+          .nav1 .btmnav1__rgt ul li a {
             text-decoration: none;
             font-weight: 400;
             font-size: 14px;
@@ -105,31 +105,31 @@
             color: #10385B; }
 
 @media (min-width: 400px) and (max-width: 1000px) {
-  .nav {
+  .nav1 {
     height: auto;
     padding: 0; }
-    .nav .topnav {
+    .nav1 .topnav1 {
       display: inline-block;
       height: auto;
       border: 0;
       padding: 0px; }
-      .nav .topnav__lft {
+      .nav1 .topnav1__lft {
         width: 100%;
         display: flex;
         justify-content: space-between; }
-      .nav .topnav__rgt {
+      .nav1 .topnav1__rgt {
         width: 100%;
         display: flex;
         justify-content: space-between; }
-        .nav .topnav__rgt ul li::before {
+        .nav1 .topnav1__rgt ul li::before {
           content: initial; }
-    .nav .btmnav {
+    .nav1 .btmnav1 {
       height: auto;
       padding: 0;
       display: inline-block; }
-      .nav .btmnav img {
+      .nav1 .btmnav1 img {
         margin: 8px; }
-      .nav .btmnav ul {
+      .nav1 .btmnav1 ul {
         overflow-x: scroll; } }
 
 /*# sourceMappingURL=navbar.css.map */

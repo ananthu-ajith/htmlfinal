@@ -1,8 +1,8 @@
-.nav {
+.nav1 {
   height: 90px;
   width: 100%;
 
-  .topnav {
+  .topnav1 {
     height: 35px;
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -109,7 +109,7 @@
   }
 
 
-  .btmnav
+  .btmnav1
   {
     height: 55px;
     width: 100%;
@@ -170,11 +170,11 @@
 
 @media (min-width: 400px) and (max-width: 1000px) {
 
-  .nav
+  .nav1
   {
     height: auto;
     padding: 0;
-    .topnav {
+    .topnav1 {
       display: inline-block;
       height: auto;
       border: 0;
@@ -206,7 +206,7 @@
       
     
    }
-   .btmnav
+   .btmnav1
    {
     height: auto;
     padding: 0;
